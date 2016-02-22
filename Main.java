@@ -35,7 +35,7 @@ public class Main {
         try {
             bufWriter.write("My name is Heather.\n");
             bufWriter.write("My favorite color is blue.\n");
-            bufWriter.write(Integer.toString(2545) + "\n");
+            bufWriter.write("I am "+Integer.toString(33) + " years old.\n");
             bufWriter.close();
         }catch(IOException io){
             System.out.println("There was an error writing to the file "+filename+".");
